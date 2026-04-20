@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Welcome Back</title>
+</head>
+<body>
+   <nav class="navbar">
+  <div class="nav-left">
+    <div class="logo-pedestal">
+      <img src="https://cdn-icons-png.flaticon.com/512/9431/9431215.png" 
+                 alt="Tech Icon" 
+                 class="nav-logo">
+        </div>  
+    <span>Davies' app</span>
+  </div>
+
+  <div class="nav-center">
+    <ul class="nav-links">
+      <li><a href="index.html">Register</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+    </ul>
+  </div>
+
+  <div class="nav-right">
+    <div class="search-box">
+      <input type="text" placeholder="Search...">
+      <button style="background:none; border:none; cursor:pointer;">🔍</button>
+    </div>
+  </div>
+  <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+</nav>
+<div class="stats-grid">
+    <div class="stat-card">
+        <h4>Items</h4>
+        <span>1</span>
+    </div>
+    <div class="stat-card">
+        <h4>Items</h4>
+        <span>2</span>
+    </div>
+    <div class="stat-card">
+        <h4>Items</h4>
+        <span>3</span>
+    </div>
+    <div class="stat-card">
+        <h4>Items</h4>
+        <span>4</span>
+    </div>
+</div>
+    <div class="login-container">
+        <h2>Login</h2>        
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit">Log In</button>
+        </form>
+    
+        <div class="footer-links">
+            <div>New here? <a href="index.html">Create an Account</a></div>
+            <div style="margin-top: 10px;">
+                <a href="dashboard.html">Go to Dashboard</a>
+            </div>
+        </div>
+    </div></div>
+</body>
+</html>
