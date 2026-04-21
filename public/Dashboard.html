@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo-container">
+        <div class="logo-pedestal">
+            <img src="https://cdn-icons-png.flaticon.com/512/9431/9431215.png" 
+                 alt="Tech Icon" 
+                 class="nav-logo">
+        </div>
+
+        <div class="brand-text">
+            <span class="brand-main">Davies'</span>
+            <span class="brand-sub">app</span>
+        </div>
+    </div>
+
+    <div class="nav-group">
+        <ul class="nav-links">
+            <li><a href="index.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+
+    <div class="search-wrapper">
+        <input type="text" placeholder="Search..." aria-label="Search">
+        <button class="search-btn">🔍</button>
+    </div>
+    <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+</nav>
+<div class="main-body">
+    <aside class="sidebar">
+        <h2>My App</h2>
+        <a href="dashboard.html" class="active">Dashboard</a>
+        <a href="#">⚙️ Settings</a>
+        <a href="login.html">Logout</a>
+        <button id="deleteBtn" class="btn-danger">Delete Account</button>
+    </aside>
+
+    <main class="main-content">
+        <div class="header">
+            <h1 style="color: var(--neon-blue); margin-top: 0;">auth</h1>
+            <p>Welcome back, <strong>Admin</strong></p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">Total Users 
+                <span>
+                1,240</span></div>
+            <div class="stat-card">Active Now <span>
+                85</span></div>
+            <div class="stat-card">Pending <span>
+                12</span></div>
+            <div class="stat-card">Reports <span>
+                5</span></div>
+        </div>
+
+       
+        <div class="summary-panel">
+            <h3>System Logs / Quick Notes</h3>
+            <p>All systems operational. Last backup: 2 hours ago.</p>
+        </div>
+    </main>
+</div>
+
+</body>
+</html>
