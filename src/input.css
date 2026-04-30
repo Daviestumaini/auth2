@@ -927,4 +927,14 @@
             display: flex; /* Ensure links are visible */
         }
     }
-    
+    .footer {
+        display: flex;
+    background: var(--card-bg); 
+    border-top: 1px solid #30363d;
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 1100px;
+    text-align: center;
+    margin: 0 auto; /* Center the footer */ 
+}
